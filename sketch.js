@@ -8,7 +8,7 @@ function setup() {
 
 }
 
-var inizio = 0;
+
 var a = 200;
 var r = 50;
 
@@ -77,7 +77,7 @@ if (frameCount > 144) {
   x = r / sin(a)*18;
   y = r / sin(a)*18;
 //translate(mouseX,mouseY);
-inizio = 1;
+
 }
 
 if (keyIsPressed && key == 'b') {
